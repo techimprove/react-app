@@ -1,0 +1,45 @@
+.App-link {
+  color: #61dafb;
+}
+.remove-bullet{
+  list-style: none;
+}
+.app-header{
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: maroon;
+  background-color: bisque;
+  padding-top: 8px;
+}
+
+.app-footer{
+  height: 30px;
+  margin-top: 15px;
+  font-size: 10px;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  color: gray;
+  background-color: bisque;
+  padding-top: 8px;
+}
+
+.body-content{
+  height: 626px;
+  width: 100%;
+}
+
+.child-component-gutters{
+  margin: 0 10px 10px 10px;
+  background-color: rgb(220, 227, 230);
+  border-radius: 5px;
+  height: 598px;
+}
+
+.drop-downs {
+  display: inline-flex;
+  margin: 0 0 0 10px;
+}
+
