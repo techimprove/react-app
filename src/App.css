@@ -1,10 +1,12 @@
 .App-link {
   color: #61dafb;
 }
-.remove-bullet{
+
+.remove-bullet {
   list-style: none;
 }
-.app-header{
+
+.app-header {
   height: 50px;
   font-size: 20px;
   font-weight: 600;
@@ -14,7 +16,7 @@
   padding-top: 8px;
 }
 
-.app-footer{
+.app-footer {
   height: 30px;
   margin-top: 15px;
   font-size: 10px;
@@ -26,12 +28,12 @@
   padding-top: 8px;
 }
 
-.body-content{
+.body-content {
   height: 626px;
   width: 100%;
 }
 
-.child-component-gutters{
+.child-component-gutters {
   margin: 0 10px 10px 10px;
   background-color: rgb(220, 227, 230);
   border-radius: 5px;
@@ -43,3 +45,6 @@
   margin: 0 0 0 10px;
 }
 
+.equal-width td {
+  width: 12%;
+}

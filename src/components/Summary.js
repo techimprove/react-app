@@ -24,6 +24,7 @@ function Summary() {
     fetch(`https://jsonplaceholder.typicode.com/posts?userId=${id}`).then(res => res.json()).then((data) => {
       SetEmployeeDetail(data);
     });
+
   });
 
   return (

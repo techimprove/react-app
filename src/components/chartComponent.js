@@ -25,12 +25,13 @@ class ChartComponent extends Component {
     }
 
     render() {
+        let index = 1;
         let tableElements = this.props.dataFromDashboard.rows.map(rows => {
             return (
-                <tr style={{ width: '100%', height: '298px' }}>
+                <tr key={rows.row + index++} style={{ width: '100%', height: '298px' }}>
                     {rows.row.map(chart => {
                         return (
-                            <td>
+                            <td key={chart.chartId}>
                                 <canvas id={chart.chartId} key={chart.chartId} style={{ width: '353px', height: '268px', backgroundColor: 'white' }}></canvas> </td>
                         )
                     })}
@@ -38,7 +39,7 @@ class ChartComponent extends Component {
             )
         });
         return (
-            <div>{tableElements}</div >
+            <tbody>{tableElements}</tbody>
         );
     }
 }

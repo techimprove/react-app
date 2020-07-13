@@ -4,6 +4,7 @@ import Summary from "./Summary";
 import About from "./About";
 import Validations from "./Validations";
 import Dashboard from "./Dashboard";
+import PythonFlask from "./PythonFlask";
 
 function RouterComponent() {
     return (
@@ -21,6 +22,9 @@ function RouterComponent() {
                 <a href="#" className="nav-item nav-link" style={{ paddingTop: '10px', paddingLeft: '5px' }}>
                     <Link to="/validations">Validations</Link>
                 </a>
+                <a href="#" className="nav-item nav-link" style={{ paddingTop: '10px', paddingLeft: '5px' }}>
+                    <Link to="/python-flask">Python Flask Cassandra</Link>
+                </a>
             </nav>
             <div className='child-component-gutters'>
                 <Switch>
@@ -29,6 +33,7 @@ function RouterComponent() {
                     <Route path="/useEffect-useState"><About /></Route>
                     <Route path="/props-for-child-component/:id"><Summary /></Route>
                     <Route path="/validations"><Validations /></Route>
+                    <Route path="/python-flask"><PythonFlask /></Route>
                 </Switch>
             </div>
         </Router >

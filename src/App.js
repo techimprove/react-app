@@ -14,7 +14,7 @@ function App() {
       <div className='body-content'>
         <RouterComponent></RouterComponent>
       </div>
-      <div className='app-footer'>@2020 Copy Rights to only Satyavenkata</div>
+      <div className='app-footer'>@2020 Copy Rights to only techimprove.com</div>
     </div>
   );
 }
